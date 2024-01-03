@@ -19,8 +19,16 @@ function draw() {
     showReferenceImage();
   }
   drawTime();
+  drawNote();
 }
 
+function drawNote() {
+  textAlign(CENTER, CENTER);
+  textSize(40);
+  stroke(200, 0, 0);
+  fill(100, 0, 0);
+  text("Please sign out before leaving.", width/2, -60);
+}
 
 function drawTime() {
   let time = getTimeString(0);
