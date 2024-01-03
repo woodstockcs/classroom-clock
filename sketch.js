@@ -1,16 +1,16 @@
 let x;
 let y;
-let img;
+//let img;
 // seven segment display:
 // https://en.wikipedia.org/wiki/Seven-segment_display
 
 function preload() {
-  img = loadImage("clock.png");
+  //img = loadImage("clock.png");
 }
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  img.resize(img.width * 3, img.height * 3);
+  //img.resize(img.width * 3, img.height * 3);
 }
 
 function draw() {
@@ -209,5 +209,5 @@ function drawSegments(segments, h) {
 }
 
 function showReferenceImage() {
-  image(img, -900, -300);
+  //image(img, -900, -300);
 }
