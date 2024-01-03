@@ -25,8 +25,8 @@ function draw() {
 function drawNote() {
   textAlign(CENTER, CENTER);
   textSize(40);
-  stroke(200, 0, 0);
-  fill(100, 0, 0);
+  stroke(200, 200, 0);
+  fill(150, 150, 0);
   text("Please sign out before leaving.", width/2, -60);
 }
 
