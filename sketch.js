@@ -27,7 +27,7 @@ function drawNote() {
   textSize(30);
   noStroke();
   fill(200, 200, 0);
-  text("1 bio break, 5 minutes max" width/2, -100);
+  text("1 bio break, 5 minutes max", width/2, -100);
   text("sign out, sign in", width/2, -60);
 }
 
