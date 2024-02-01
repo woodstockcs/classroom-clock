@@ -24,13 +24,15 @@ function draw() {
 
 function drawNote() {
   textAlign(CENTER, CENTER);
-  textSize(40);
-  stroke(200, 200, 0);
-  fill(150, 150, 0);
-  text("Please sign out before leaving.", width/2, -60);
+  textSize(30);
+  noStroke();
+  fill(200, 200, 0);
+  text("1 bio break, 5 minutes max" width/2, -100);
+  text("sign out, sign in", width/2, -60);
 }
 
 function drawTime() {
+  // push();
   let time = getTimeString(0);
   let digits = time.replaceAll(":", "").split("");
   fill(0);
@@ -54,7 +56,8 @@ function drawTime() {
   drawDigit(digits[5], 710, 100, .5);
   // drawSeparator(842, 0)
   // drawDigit(digits[6], 890, 0);
-  // drawDigit(digits[7], 1070, 0);
+  // drawDigit(digits[7], 1070, 0);\
+  // pop();
 }
 
 function drawSeparator(x, y) {
